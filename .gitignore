@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.*
+.pnpm-store/
+
+# Next.js build output
+.next/
+out/
+
+# Production build artifacts
+dist/
+build/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# TypeScript incremental build artifacts
+*.tsbuildinfo
+
+# Test and coverage output
+coverage/
+.nyc_output/
+
+# Logs and runtime files
+*.log
+logs/
+*.pid
+*.seed
+
+# Vercel
+.vercel/
+
+# Local editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+

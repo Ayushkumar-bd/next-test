@@ -1,0 +1,22 @@
+{
+  "name": "next-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --webpack"
+  },
+  "dependencies": {
+    "@bangdb/web-sdk": "link:../../web-sdk",
+    "next": "^16.0.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "typescript": "~6.0.2"
+  }
+}
